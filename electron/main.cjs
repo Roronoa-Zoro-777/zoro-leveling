@@ -44,18 +44,30 @@ function createWindow() {
     minHeight: 600,
     backgroundColor: '#030712',
     title: 'ZoroLevel ⚡ Productivity Tracker',
-    icon: path.join(__dirname, '../public/favicon.ico'),
+    icon: path.join(__dirname, '../public/icon-512.png'),
     webPreferences: {
       preload: path.join(__dirname, 'preload.cjs'),
       nodeIntegration: false,
       contextIsolation: true,
-      sandbox: true,
+      sandbox: false,
       webSecurity: true,
       spellcheck: false,
       enableWebSQL: false,
     },
     autoHideMenuBar: true,
     show: false,
+  });
+
+  // Enable F12 and Ctrl+Shift+I to toggle DevTools
+  mainWindow.webContents.on('before-input-event', (event, input) => {
+    if (input.key === 'F12' || (input.control && input.shift && input.key.toLowerCase() === 'i')) {
+      mainWindow.webContents.toggleDevTools();
+    }
+  });
+
+  // Catch any load failure
+  mainWindow.webContents.on('did-fail-load', (event, errorCode, errorDescription, validatedURL) => {
+    console.error('Failed to load:', validatedURL, errorCode, errorDescription);
   });
 
   // Load production dist bundle or dev server
