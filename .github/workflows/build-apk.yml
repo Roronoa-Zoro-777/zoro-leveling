@@ -35,9 +35,10 @@ jobs:
           java-version: '17'
           cache: 'gradle'
 
-      - name: Accept Android SDK Licenses
+      - name: Setup Android SDK Components
         run: |
           yes | $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager --licenses || true
+          $ANDROID_HOME/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0" || true
 
       - name: Install Dependencies
         run: npm install
@@ -54,7 +55,7 @@ jobs:
       - name: Build Android Debug APK
         run: |
           cd android
-          ./gradlew assembleDebug --stacktrace
+          ./gradlew assembleDebug --no-daemon --stacktrace
 
       - name: Prepare APK Artifact
         run: |
