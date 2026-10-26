@@ -26,6 +26,7 @@ import CommandPalette from './components/CommandPalette';
 import ShortcutsModal from './components/ShortcutsModal';
 import AppLock from './components/AppLock';
 import ErrorBoundary from './components/ErrorBoundary';
+import MobileNavDrawer from './components/MobileNavDrawer';
 
 import './index.css';
 
@@ -95,6 +96,9 @@ function PageContent() {
         <div className="bg-noise" />
         <div className="bg-vignette" />
       </div>
+
+      {/* Mobile Top Bar & Animated Top-Corner Hamburger */}
+      <MobileNavDrawer />
 
       <div className="app-layout">
         <Sidebar />
