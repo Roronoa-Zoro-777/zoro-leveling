@@ -9,8 +9,8 @@
 export const APP_RELEASE_CONFIG = {
   version: '2.4.0',
   releaseDate: 'October 2026',
-  releaseNotesUrl: 'https://github.com/zorolevel/releases/tag/v2.4.0',
-  githubRepoUrl: 'https://github.com/zorolevel/zorolevel',
+  releaseNotesUrl: 'https://github.com/Roronoa-Zoro-777/zoro-leveling/releases/tag/v2.4.0',
+  githubRepoUrl: 'https://github.com/Roronoa-Zoro-777/zoro-leveling',
   
   // Platform-specific download targets
   platforms: {
@@ -23,7 +23,7 @@ export const APP_RELEASE_CONFIG = {
         format: '.exe (Installer)',
         filename: 'ZoroLevel-Setup-2.4.0.exe',
         size: '68.4 MB',
-        url: 'https://github.com/zorolevel/releases/download/v2.4.0/ZoroLevel-Setup-2.4.0.exe',
+        url: 'https://github.com/Roronoa-Zoro-777/zoro-leveling/releases/download/v2.4.0/ZoroLevel-Setup-2.4.0.exe',
         sha256: '9f8e7d6c5b4a3f2e1d0c9b8a7f6e5d4c3b2a1f0e9d8c7b6a5f4e3d2c1b0a9f8e',
       },
       secondary: {
@@ -31,7 +31,7 @@ export const APP_RELEASE_CONFIG = {
         format: '.msi (Enterprise)',
         filename: 'ZoroLevel-2.4.0.msi',
         size: '72.1 MB',
-        url: 'https://github.com/zorolevel/releases/download/v2.4.0/ZoroLevel-2.4.0.msi',
+        url: 'https://github.com/Roronoa-Zoro-777/zoro-leveling/releases/download/v2.4.0/ZoroLevel-2.4.0.msi',
         sha256: 'a1b2c3d4e5f60718293a4b5c6d7e8f901a2b3c4d5e6f7a8b9c0d1e2f3a4b5c6d',
       },
       installSteps: [
@@ -51,7 +51,7 @@ export const APP_RELEASE_CONFIG = {
         format: '.dmg (Universal)',
         filename: 'ZoroLevel-2.4.0-Universal.dmg',
         size: '66.8 MB',
-        url: 'https://github.com/zorolevel/releases/download/v2.4.0/ZoroLevel-2.4.0-Universal.dmg',
+        url: 'https://github.com/Roronoa-Zoro-777/zoro-leveling/releases/download/v2.4.0/ZoroLevel-2.4.0-Universal.dmg',
         sha256: 'b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3',
       },
       secondary: {
@@ -59,7 +59,7 @@ export const APP_RELEASE_CONFIG = {
         format: 'Apple Silicon (M1/M2/M3/M4)',
         filename: 'ZoroLevel-2.4.0-arm64.dmg',
         size: '63.2 MB',
-        url: 'https://github.com/zorolevel/releases/download/v2.4.0/ZoroLevel-2.4.0-arm64.dmg',
+        url: 'https://github.com/Roronoa-Zoro-777/zoro-leveling/releases/download/v2.4.0/ZoroLevel-2.4.0-arm64.dmg',
         sha256: 'c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4',
       },
       installSteps: [
@@ -79,7 +79,7 @@ export const APP_RELEASE_CONFIG = {
         format: '.AppImage (Universal)',
         filename: 'ZoroLevel-2.4.0.AppImage',
         size: '74.5 MB',
-        url: 'https://github.com/zorolevel/releases/download/v2.4.0/ZoroLevel-2.4.0.AppImage',
+        url: 'https://github.com/Roronoa-Zoro-777/zoro-leveling/releases/download/v2.4.0/ZoroLevel-2.4.0.AppImage',
         sha256: 'd4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5',
       },
       secondary: {
@@ -87,7 +87,7 @@ export const APP_RELEASE_CONFIG = {
         format: '.deb Package',
         filename: 'zorolevel_2.4.0_amd64.deb',
         size: '61.9 MB',
-        url: 'https://github.com/zorolevel/releases/download/v2.4.0/zorolevel_2.4.0_amd64.deb',
+        url: 'https://github.com/Roronoa-Zoro-777/zoro-leveling/releases/download/v2.4.0/zorolevel_2.4.0_amd64.deb',
         sha256: 'e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6',
       },
       installSteps: [
@@ -106,7 +106,7 @@ export const APP_RELEASE_CONFIG = {
         format: '.apk (Direct Download)',
         filename: 'ZoroLevel-2.4.0.apk',
         size: '18.6 MB',
-        url: 'https://github.com/zorolevel/releases/download/v2.4.0/ZoroLevel-2.4.0.apk',
+        url: 'https://github.com/Roronoa-Zoro-777/zoro-leveling/releases/download/v2.4.0/ZoroLevel-2.4.0.apk',
         sha256: 'f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7',
       },
       secondary: {
