@@ -1,0 +1,26 @@
+{
+  "appId": "com.zorolevel.app",
+  "appName": "ZoroLevel",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "ios": {
+    "preferredContentMode": "mobile",
+    "scheme": "ZoroLevel",
+    "limitsNavigationsToAppBoundDomains": true
+  },
+  "plugins": {
+    "CapacitorSQLite": {
+      "iosDatabaseLocation": "Library/CapacitorDatabase",
+      "iosIsEncryption": false,
+      "androidIsEncryption": false
+    }
+  }
+}
