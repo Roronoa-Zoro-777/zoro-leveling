@@ -3,6 +3,7 @@
   "appId": "com.zorolevel.desktop",
   "productName": "ZoroLevel",
   "copyright": "Copyright © 2026 ZoroLevel",
+  "electronVersion": "34.2.0",
   "directories": {
     "output": "dist-electron",
     "buildResources": "public"
